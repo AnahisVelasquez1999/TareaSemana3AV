@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TareaSemana2AV.MainPage">
+
+    <StackLayout>
+        <Image Source="https://www.uisrael.edu.ec/wp-content/uploads/2020/05/logo-UISRAEL.png" />
+        <Label Text="Sign in" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="HotPink" FontSize="25"/>
+        <Image Source="https://cdn-icons-png.flaticon.com/512/5472/5472505.png" WidthRequest="90" HeightRequest="100" />
+        <Entry x:Name="txtUser" Placeholder="Ingrese Usuario: " PlaceholderColor="HotPink"/>
+        <Entry x:Name="txtPass" Placeholder="Ingrese Contraseña: " PlaceholderColor="HotPink" IsPassword="True"/>
+        <Button x:Name="btnLogin" Text="Login" TextColor="DeepPink" FontAttributes="Bold" FontSize="16" Clicked="btnLogin_Clicked" BackgroundColor="LightPink"/>
+
+
+
+
+    </StackLayout>
+
+</ContentPage>
